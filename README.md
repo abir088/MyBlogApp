@@ -3,15 +3,16 @@
 <head>
 # MyBlogApp
 
-<h4>Author: Md Abir Hasan<h4>
+<h4>Author: Md Abir Hasan</h4>
 </head>
 <body>
-This site is developed as a part of Udemy-The Web Developer Bootcamp
+
+<p>This site is developed as a part of Udemy-The Web Developer Bootcamp</p>
 
 ##Instructions to run the website:
 
 <p>The website is hosted in Heroku Free account, the site can be visited by following <a href="https://guarded-bastion-25700.herokuapp.com/blogs">this link</a>. 
-It can also be run using local host: load this github cloned folder. </P>
+It can also be run using local host: load this github cloned folder. </p>
 
 <h4>#Features:</h4>
 <ul>
