@@ -7,7 +7,9 @@ mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
 //APP Config
-mongoose.connect("mongodb://localhost/restful_blog_app", {useMongoClient: true});
+var url= process.env.DATABASEURLBLOG || "mongodb://localhost/restful_blog_app";
+mongoose.connect(url, {useMongoClient: true});
+//mongoose.connect("mongodb://localhost/restful_blog_app", {useMongoClient: true});
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
