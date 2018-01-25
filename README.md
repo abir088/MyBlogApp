@@ -29,7 +29,7 @@ It can also be run using local host: load this github cloned folder. </p>
 <li>CSS</li>
 <li>Semantic UI</li>
 <li>JavaScript, jQuery</li>
-<li>Node.JS</li>
+<li>NodeJS</li>
 <li>npm : express, ejs, body-parser, request, method-override, express-sanitizer, mongoose</li>
 <li>MongoDB</li>
   <li>Git, Git-Hub</li>
